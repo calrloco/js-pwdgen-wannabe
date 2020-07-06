@@ -25,7 +25,7 @@ if (nome.match(letters)){
     noLetters = true;
  }
 
-if(nome != "" && cognome != "" && colore != "" && tooshort != false && noLetters != false){
+if(tooshort != false && noLetters != false){
     document.getElementById("password").innerHTML = "La tua password a prova di bomba e: "+ password;
 }else{
   alert("I valori inseriti non sono corretti");
