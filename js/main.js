@@ -1,3 +1,4 @@
+  
 var nome = prompt('Il tuo nome nome?');
 
 var cognome = prompt('Il tuo cognome e?');
@@ -21,7 +22,7 @@ if(nome.length < 3 || cognome.length  < 3 || colore.length < 3){
     tooshort  = false;
 }
 // controllo per vedere se quello che hai inserito sono delle lettere
-if (nome.match(letters)){
+if (nome.match(letters) && cognome.match(letters) && colore.match(letters)){
     noLetters = true;
  }
 
