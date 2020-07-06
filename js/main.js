@@ -30,5 +30,6 @@ if(tooshort != false && noLetters != false){
 }else{
   alert("I valori inseriti non sono corretti");
   location.reload();
+
 }
 
