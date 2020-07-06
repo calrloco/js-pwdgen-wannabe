@@ -4,7 +4,7 @@ var cognome = prompt('Il tuo cognome e?');
 
 var colore = prompt('il tuo colore prefito e?')
 
-var numero = Math.floor(Math.random() * 323818320) + 9203213921;  
+var numero = Math.floor(Math.random() * 323818320) + 920321392;  
 
 var tooshort = true;
 
